@@ -1,6 +1,7 @@
 {
     "starzplay": {
         "baseURL": "https://playdata.starz.com/metadata-service/play/partner/Web_BR/v8/content",
-        "method": "single_request"
+        "method": "single_request",
+        "pathToList": "playContentArray|playContents"
     }
 }
