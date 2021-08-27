@@ -9,7 +9,12 @@ class RegisteredCrawlers {
     }
 
     isRegistered(crawlerName) {
-        return this.myCrawlers.contains(crawlerName);
+        console.log(this.myCrawlers);
+        return this.myCrawlers.includes(crawlerName);
+    }
+
+    crawlerSpec(crawlerName) {
+        return this.crawlersJSON[crawlerName];
     }
 
 };
