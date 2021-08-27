@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Generic crawlers",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
-  "author": "Ed de Almeida",
-  "license": "ISC"
+  "author": {
+    "name": "Ed de Almeida",
+    "email": "edvaldoajunior@gmail.com",
+    "url": "http://eddealmeida.blog.br"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
