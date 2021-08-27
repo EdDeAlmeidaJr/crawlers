@@ -8,8 +8,13 @@ class Crawler {
     }
 
     process() {
-        if (!this.regCrawlers.isRegistered(this.name)) {
-            throw Error('Not a registered crawler: ' + this.name);
+        try {
+            if (!this.regCrawlers.isRegistered(this.name)) {
+                throw Error('Not a registered crawler: ' + this.name);
+            }
+        } catch (e) {
+            console.log(e.message);
+            process.exit();
         }
     }
 
