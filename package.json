@@ -1,0 +1,14 @@
+{
+  "name": "crawlers",
+  "version": "1.0.0",
+  "description": "Generic crawlers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ed de Almeida",
+  "license": "ISC"
+}
