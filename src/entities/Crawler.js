@@ -10,10 +10,7 @@ class Crawler {
         this.name = name;
         this.regCrawlers = new RegisteredCrawlers();
         this.crawlerSpec = {};
-        this.baseURL = null;
         this.method = null;
-        this.pathToList = null;
-        this.data = null;
         this.actualCrawler = null;
     }
 
